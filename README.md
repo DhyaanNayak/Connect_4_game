@@ -2,6 +2,20 @@
 
 In this Connect 4 game implementation, we employ a score-based system to evaluate a player's performance. The scoring is determined by the number of "2 in a line" and "3 in a line" connections, with consideration given to the potential for extending these connections.
 
+## AI Difficulties:
+
+### 1. Random Agent 
+
+An AI agent that picks a column at random without a strategy 
+
+### 2. Short Term Agent 
+
+An AI agent that picks a column based on a simple heuristic and is only able to strategize based on the current state of the game 
+
+### 3. Long Term Agent 
+
+An AI agent that picks a column Based on the Minimax algorithm and is able to consider upto 6 moves into the future  
+
 ## Scoring Criteria:
 
 ### 1.	Piece Connections:
